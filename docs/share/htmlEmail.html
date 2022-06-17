@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>html邮件编写 | 企业预警通 app 文档</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    <link rel="icon" href="/docs/icon.png">
+    <meta name="description" content="xxx ">
+    
+    <link rel="preload" href="/docs/assets/css/0.styles.52bb2005.css" as="style"><link rel="preload" href="/docs/assets/js/app.0c778470.js" as="script"><link rel="preload" href="/docs/assets/js/2.ee7ef9dc.js" as="script"><link rel="preload" href="/docs/assets/js/21.d7a5ea73.js" as="script"><link rel="prefetch" href="/docs/assets/js/10.3d579f3d.js"><link rel="prefetch" href="/docs/assets/js/11.6e424332.js"><link rel="prefetch" href="/docs/assets/js/12.9bbad37f.js"><link rel="prefetch" href="/docs/assets/js/13.ed4e2e31.js"><link rel="prefetch" href="/docs/assets/js/14.8a28c813.js"><link rel="prefetch" href="/docs/assets/js/15.cf55a809.js"><link rel="prefetch" href="/docs/assets/js/16.7532e161.js"><link rel="prefetch" href="/docs/assets/js/17.4ddf9412.js"><link rel="prefetch" href="/docs/assets/js/18.28eb9650.js"><link rel="prefetch" href="/docs/assets/js/19.b5c60367.js"><link rel="prefetch" href="/docs/assets/js/20.70441465.js"><link rel="prefetch" href="/docs/assets/js/22.949306d2.js"><link rel="prefetch" href="/docs/assets/js/23.be617f91.js"><link rel="prefetch" href="/docs/assets/js/24.585a9eb6.js"><link rel="prefetch" href="/docs/assets/js/25.a5bb4c9c.js"><link rel="prefetch" href="/docs/assets/js/26.f6344688.js"><link rel="prefetch" href="/docs/assets/js/27.39961abf.js"><link rel="prefetch" href="/docs/assets/js/28.9febf2d9.js"><link rel="prefetch" href="/docs/assets/js/29.0c311a14.js"><link rel="prefetch" href="/docs/assets/js/3.1a24f236.js"><link rel="prefetch" href="/docs/assets/js/30.0bb21c13.js"><link rel="prefetch" href="/docs/assets/js/31.66a2d849.js"><link rel="prefetch" href="/docs/assets/js/4.960c93c7.js"><link rel="prefetch" href="/docs/assets/js/5.b99acfdc.js"><link rel="prefetch" href="/docs/assets/js/6.845675fc.js"><link rel="prefetch" href="/docs/assets/js/7.f58cba3a.js"><link rel="prefetch" href="/docs/assets/js/8.83af7f33.js"><link rel="prefetch" href="/docs/assets/js/9.a1850950.js">
+    <link rel="stylesheet" href="/docs/assets/css/0.styles.52bb2005.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/docs/" class="home-link router-link-active"><!----> <span class="site-name">企业预警通 app 文档</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/docs/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="/docs/standard/codeSpecification.html" class="nav-link">
+  代码规范
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="常见问题" class="dropdown-title"><span class="title">常见问题</span> <span class="arrow down"></span></button> <button type="button" aria-label="常见问题" class="mobile-dropdown-title"><span class="title">常见问题</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/docs/problem/tableScroll.html" class="nav-link">
+  关于表格滚动问题说明
+</a></li><li class="dropdown-item"><!----> <a href="/docs/problem/howToSolve.html" class="nav-link">
+  问题处理文档
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="项目资料" class="dropdown-title"><span class="title">项目资料</span> <span class="arrow down"></span></button> <button type="button" aria-label="项目资料" class="mobile-dropdown-title"><span class="title">项目资料</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/docs/project/cdnPath.html" class="nav-link">
+  公用 cdn 插件地址
+</a></li><li class="dropdown-item"><!----> <a href="/docs/project/gulpConfig.html" class="nav-link">
+  gulpfile 配置
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="分享" class="dropdown-title"><span class="title">分享</span> <span class="arrow down"></span></button> <button type="button" aria-label="分享" class="mobile-dropdown-title"><span class="title">分享</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/docs/share/performanceOptimization.html" class="nav-link">
+  前端性能优化--图片
+</a></li><li class="dropdown-item"><!----> <a href="/docs/share/svnAddress.html" class="nav-link">
+  前端svn
+</a></li><li class="dropdown-item"><!----> <a href="/docs/share/pageSuggestion.html" class="nav-link">
+  页面建议（UI）
+</a></li><li class="dropdown-item"><!----> <a href="/docs/share/mobileDevelopment.html" class="nav-link">
+  移动开发要点
+</a></li><li class="dropdown-item"><!----> <a href="/docs/share/nativeJump.html" class="nav-link">
+  原生跳转URL
+</a></li><li class="dropdown-item"><!----> <a href="/docs/share/htmlEmail.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  html邮箱编写规则
+</a></li><li class="dropdown-item"><!----> <a href="/docs/share/htmlToPdf.html" class="nav-link">
+  html转pdf
+</a></li><li class="dropdown-item"><!----> <a href="/docs/share/BottomSafetyDistance.html" class="nav-link">
+  ios底部安全距离 
+</a></li><li class="dropdown-item"><!----> <a href="/docs/share/webExtension.html" class="nav-link">
+  web 扩展
+</a></li><li class="dropdown-item"><!----> <a href="/docs/share/CompositionVSOption.html" class="nav-link">
+  Composition API VS Option API
+</a></li><li class="dropdown-item"><!----> <a href="/docs/share/vue3.0.html" class="nav-link">
+  vue3.0入门
+</a></li><li class="dropdown-item"><!----> <a href="/docs/share/webhookRelease.html" class="nav-link">
+  webhook自动发版
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="入职" class="dropdown-title"><span class="title">入职</span> <span class="arrow down"></span></button> <button type="button" aria-label="入职" class="mobile-dropdown-title"><span class="title">入职</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/docs/onboarding/manual.html" class="nav-link">
+  新员工手册
+</a></li><li class="dropdown-item"><!----> <a href="/docs/onboarding/projectInstruction.html" class="nav-link">
+  App项目说明
+</a></li><li class="dropdown-item"><!----> <a href="/docs/onboarding/environment.html" class="nav-link">
+  公司前端环境介绍(终端)
+</a></li><li class="dropdown-item"><!----> <a href="/docs/onboarding/architecture.html" class="nav-link">
+  架构文档
+</a></li><li class="dropdown-item"><!----> <a href="/docs/onboarding/upgrade.html" class="nav-link">
+  前端页面升级文档
+</a></li><li class="dropdown-item"><!----> <a href="/docs/onboarding/environmentDev.html" class="nav-link">
+  开发环境文档
+</a></li><li class="dropdown-item"><!----> <a href="/docs/onboarding/deliver.html" class="nav-link">
+  交付文档
+</a></li></ul></div></div> <a href="https://git.finchina.com/hf-develop/web/1/vue_group/tree/master/qyyjt-docs" target="_blank" rel="noopener noreferrer" class="repo-link">
+    Github
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/docs/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="/docs/standard/codeSpecification.html" class="nav-link">
+  代码规范
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="常见问题" class="dropdown-title"><span class="title">常见问题</span> <span class="arrow down"></span></button> <button type="button" aria-label="常见问题" class="mobile-dropdown-title"><span class="title">常见问题</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/docs/problem/tableScroll.html" class="nav-link">
+  关于表格滚动问题说明
+</a></li><li class="dropdown-item"><!----> <a href="/docs/problem/howToSolve.html" class="nav-link">
+  问题处理文档
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="项目资料" class="dropdown-title"><span class="title">项目资料</span> <span class="arrow down"></span></button> <button type="button" aria-label="项目资料" class="mobile-dropdown-title"><span class="title">项目资料</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/docs/project/cdnPath.html" class="nav-link">
+  公用 cdn 插件地址
+</a></li><li class="dropdown-item"><!----> <a href="/docs/project/gulpConfig.html" class="nav-link">
+  gulpfile 配置
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="分享" class="dropdown-title"><span class="title">分享</span> <span class="arrow down"></span></button> <button type="button" aria-label="分享" class="mobile-dropdown-title"><span class="title">分享</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/docs/share/performanceOptimization.html" class="nav-link">
+  前端性能优化--图片
+</a></li><li class="dropdown-item"><!----> <a href="/docs/share/svnAddress.html" class="nav-link">
+  前端svn
+</a></li><li class="dropdown-item"><!----> <a href="/docs/share/pageSuggestion.html" class="nav-link">
+  页面建议（UI）
+</a></li><li class="dropdown-item"><!----> <a href="/docs/share/mobileDevelopment.html" class="nav-link">
+  移动开发要点
+</a></li><li class="dropdown-item"><!----> <a href="/docs/share/nativeJump.html" class="nav-link">
+  原生跳转URL
+</a></li><li class="dropdown-item"><!----> <a href="/docs/share/htmlEmail.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  html邮箱编写规则
+</a></li><li class="dropdown-item"><!----> <a href="/docs/share/htmlToPdf.html" class="nav-link">
+  html转pdf
+</a></li><li class="dropdown-item"><!----> <a href="/docs/share/BottomSafetyDistance.html" class="nav-link">
+  ios底部安全距离 
+</a></li><li class="dropdown-item"><!----> <a href="/docs/share/webExtension.html" class="nav-link">
+  web 扩展
+</a></li><li class="dropdown-item"><!----> <a href="/docs/share/CompositionVSOption.html" class="nav-link">
+  Composition API VS Option API
+</a></li><li class="dropdown-item"><!----> <a href="/docs/share/vue3.0.html" class="nav-link">
+  vue3.0入门
+</a></li><li class="dropdown-item"><!----> <a href="/docs/share/webhookRelease.html" class="nav-link">
+  webhook自动发版
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="入职" class="dropdown-title"><span class="title">入职</span> <span class="arrow down"></span></button> <button type="button" aria-label="入职" class="mobile-dropdown-title"><span class="title">入职</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/docs/onboarding/manual.html" class="nav-link">
+  新员工手册
+</a></li><li class="dropdown-item"><!----> <a href="/docs/onboarding/projectInstruction.html" class="nav-link">
+  App项目说明
+</a></li><li class="dropdown-item"><!----> <a href="/docs/onboarding/environment.html" class="nav-link">
+  公司前端环境介绍(终端)
+</a></li><li class="dropdown-item"><!----> <a href="/docs/onboarding/architecture.html" class="nav-link">
+  架构文档
+</a></li><li class="dropdown-item"><!----> <a href="/docs/onboarding/upgrade.html" class="nav-link">
+  前端页面升级文档
+</a></li><li class="dropdown-item"><!----> <a href="/docs/onboarding/environmentDev.html" class="nav-link">
+  开发环境文档
+</a></li><li class="dropdown-item"><!----> <a href="/docs/onboarding/deliver.html" class="nav-link">
+  交付文档
+</a></li></ul></div></div> <a href="https://git.finchina.com/hf-develop/web/1/vue_group/tree/master/qyyjt-docs" target="_blank" rel="noopener noreferrer" class="repo-link">
+    Github
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>html邮件编写</span> <!----></p> <!----></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h3 id="html邮件编写"><a href="#html邮件编写" class="header-anchor">#</a> html邮件编写</h3> <h4 id="_1-doctype"><a href="#_1-doctype" class="header-anchor">#</a> 1.  Doctype</h4> <p>目前，兼容性最好的Doctype是XHTML 1.0 Strict，事实上Gmail和Hotmail会删掉你的Doctype，换上这个<code>Doctype</code>。</p> <div class="language- extra-class"><pre class="language-text"><code>&lt;!DOCTYPE html PUBLIC &quot;-//W3C//DTD XHTML 1.0 Transitional//EN&quot; &quot;http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd&quot;&gt;
+&lt;html xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;
+&lt;/html&gt;
+</code></pre></div><h4 id="_2-布局"><a href="#_2-布局" class="header-anchor">#</a> 2. 布局</h4> <p>使用table布局，最好使用img,a ,span标签，通过table嵌套的方式，实现网页的布局。</p> <div class="language- extra-class"><pre class="language-text"><code>
+&lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;1016&quot; align=&quot;center&quot; style=&quot;background-color: #fff;&quot;&gt;
+   &lt;tbody&gt;
+       &lt;tr&gt;
+           &lt;td width='100%'&gt;
+              &lt;table border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; align=&quot;center&quot;
+              width='1016' style=&quot;background-color:#fff;table-layout: fixed; &quot;&gt;
+                   &lt;tbody&gt;
+                       &lt;tr height='24'&gt;
+                            &lt;/tr&gt;
+                   &lt;/tbody&gt;
+              &lt;/table&gt;
+            &lt;/td&gt;
+        &lt;/tr&gt;
+    &lt;/tbody&gt;
+&lt;/table&gt;
+</code></pre></div><h4 id="_3-图片"><a href="#_3-图片" class="header-anchor">#</a> 3. 图片</h4> <ul><li><p>在某些邮箱中图片不是默认加载的，往往加载前需要用户的许可 。</p></li> <li><p>图片不要使用base64图片，在outlook将会不展示。</p></li></ul> <div class="language- extra-class"><pre class="language-text"><code> background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAaQAAAJECAYAAABZ4FAqAAAABGdBTUEAALGPC/
+</code></pre></div><ul><li>引用图片使用img标签，<code>style</code> 内容里面 <code>background</code> 可以设置 <code>color</code>，但是 <code>image</code> 会被过滤。</li></ul> <div class="language- extra-class"><pre class="language-text"><code> 使用img标签
+ &lt;img border=&quot;0&quot; style=&quot;display:block;outline:none;text-decoration:none,-ms-interpolation-mode:bicubic;border:none;&quot;&gt; 
+</code></pre></div><div class="language- extra-class"><pre class="language-text"><code>背景色与背景图同时设置，保证图片不生效的情况下，背景图能展示
+&lt;table align=&quot;center&quot; border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;1120&quot; height=&quot;185&quot; style=&quot;background-color: #2F8DFD;background-image: url('https://cdn.finchina.com/app/sendMail/background@2x.jpg')&quot;&gt;
+</code></pre></div><h4 id="_4-行内样式"><a href="#_4-行内样式" class="header-anchor">#</a> 4 .行内样式</h4> <ul><li>css 只有内联样式才能兼容客户端与浏览器邮箱，而外部的style及head标签中的style有可能会客户端被删除。</li></ul> <div class="language- extra-class"><pre class="language-text"><code>&lt;span style=&quot; font-size: 24px;font-family: Arial, sans-serif;color: #fff; margin-left: 12px;&quot;&gt;企业预警通&lt;/span&gt;
+</code></pre></div><ul><li>css 不支持简写。</li></ul> <div class="language- extra-class"><pre class="language-text"><code>　想要表达
+　 &lt;p style=&quot;margin: 1em 0;&quot;&gt;
+　要写成下面这样
+　&lt;p style=&quot;margin-top: 1em; margin-bottom: 1em; margin-left: 0; margin-right: 0;&quot;&gt;
+　 
+</code></pre></div><h4 id="_5-js"><a href="#_5-js" class="header-anchor">#</a> 5. js</h4> <p>html 邮箱不能引入js,是为了防止某些攻击。</p> <h4 id="_6-字体"><a href="#_6-字体" class="header-anchor">#</a> 6. 字体</h4> <p>在 HTML 邮件中，font-family 只支持系统字体(font-family:  Arial, sans-serif; )，不支持自定义字体。</p> <div class="language- extra-class"><pre class="language-text"><code> &lt;span style=&quot; font-family: PingFangSC, PingFangSC-Light;color: #f7fbff;font-size: 13px;line-height: 18px;display: inline-block;&quot;&gt;本报告产生于2021-05-01 08:52:30&lt;/span&gt;
+</code></pre></div><h4 id="_7-行高"><a href="#_7-行高" class="header-anchor">#</a> 7. 行高</h4> <p>在 OutLook 中会有个默认的行高最小值，特别是当设置 font-family 为微软雅黑时，默认的行高差不多为 Word 中的两倍行距，如果 line-height 设置的值小于默认的行高，无论你设置的是多少，则始终使用默认值，在很多情况下这是不能忍的，好在有个神奇的 mso-line-height-rule，使用行高时添加 mso-line-height-rule:exactly; 就能使行高始终等于我们所设置的值。</p> <div class="language- extra-class"><pre class="language-text"><code>&lt;td style=&quot;mso-line-height-rule: exactly; line-height: 36px;&quot;&gt;
+    &lt;!-- ... --&gt;
+&lt;/td&gt;
+</code></pre></div><h4 id="_8-全局规则"><a href="#_8-全局规则" class="header-anchor">#</a> 8. 全局规则</h4> <ul><li>如果需要邮件居中显示，请在table里设定align=&quot;center&quot;。</li></ul> <div class="language- extra-class"><pre class="language-text"><code> &lt;table align=&quot;center&quot; border=&quot;0&quot; cellpadding=&quot;0&quot; cellspacing=&quot;0&quot; width=&quot;1120&quot; height='185' &lt;/table&gt;
+</code></pre></div><ul><li><p>若邮件模板内侧边或者上下有空白间距，不要用 padding，必须得用标准的 td 来设定空白间距，否则会导致各个邮箱解析不同。</p> <div class="language- extra-class"><pre class="language-text"><code>  &lt;tr align=&quot;center&quot; height='15'&gt;
+    &lt;td&gt;&lt;/td&gt;
+   &lt;/tr&gt;
+  &lt;tr align=&quot;center&quot; height='42'&gt;
+    &lt;td&gt; &lt;/td&gt;
+   &lt;/tr&gt;
+</code></pre></div></li> <li><p>不要写<code>style</code>标签、不要写<code>class</code>，所有CSS都用style属性，什么元素需要什么样式就用style写<code>内联的CSS</code>。</p></li> <li><p>大多数css3新技术不能使用，如 阴影，渐变色，hover事件，定位，只能使用常用的属性width,height,line-height,color。</p></li> <li><p>在<code>td</code> 里设置 <code>margin</code> 是无效的，不论是 margin-left、margin-right、margin-top 或者 margin-boottom 都没有效果。</p></li> <li><p>outlook对背景图片不识别，只能只用<code>img</code>。</p></li> <li><p>少用float, margin,padding. 绝对定位不能用，清除浮动用<code>&lt;table style=&quot;clear:both&quot;&gt;&lt;/table&gt;</code>。</p></li> <li><p>少用图片，邮箱不会过滤你的img标签，但是系统往往会默认不载入陌生来信的图片。</p></li></ul></div> <footer class="page-edit"><div class="edit-link"><a href="https://git.finchina.com/hf-develop/web/1/vue_group/tree/master/qyyjt-docs/edit/master/share/htmlEmail.md" target="_blank" rel="noopener noreferrer">编辑此页</a> <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></div> <div class="last-updated"><span class="prefix">2022年6月17日 13:12:42:</span> <span class="time">6/17/2022, 1:46:59 PM</span></div></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/docs/assets/js/app.0c778470.js" defer></script><script src="/docs/assets/js/2.ee7ef9dc.js" defer></script><script src="/docs/assets/js/21.d7a5ea73.js" defer></script>
+  </body>
+</html>
